@@ -1,0 +1,21 @@
+{
+  "name": "demo-jest-carrito",
+  "version": "1.0.0",
+  "description": "Demo de pruebas unitarias con Jest - Fundamentos de Ingeniería de Software",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "globals": "^17.13.0",
+    "jest": "^30.5.2"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "collectCoverageFrom": [
+      "src/**/*.js"
+    ]
+  }
+}
